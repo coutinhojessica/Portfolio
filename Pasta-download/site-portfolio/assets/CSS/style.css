@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia&display=swap');
+
+*{
+    margin: auto;
+    padding: auto;
+}
+
+body{
+    background-color: #f2d43d26;
+}
+
+.foto-header{
+    border-radius:80%;
+    width: 7%;
+    padding: 2%;
+}
+
+.imagem-conteudo{
+    background-image: url(../Imagens/logo/teste2.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 54% 180%;
+}
+
+.conteudo-home{
+    padding: 8%;
+    font-family: 'Anek Odia', sans-serif;
+}
+
+.titulo-site{
+    color: #736758;
+    text-shadow: 1px 1px 3px #F2C641;
+    font-family: 'square peg', cursive;
+    font-size: 250%;
+    line-height: 8%;
+}
+
+.profissao{
+    color: #BFA965;
+    font-weight: bolder;
+    padding: 0.1%;
+    margin: 1%;
+}
+
+.divisao{
+    width: 25%;
+}
+
+
+.menu-home > li{
+    list-style: none;
+    padding: 0.3%;
+}
+
+.menu-home > li > a{
+    text-decoration: none;
+    color: #736758;
+}
+
+.menu-home > li > a:hover{
+ background-image: url(../Imagens/favicon_io2/favicon-16x16.png);
+ background-repeat: no-repeat;
+ background-position: center left ;
+ padding: 2%;
+ text-shadow: 1px 1px 2px #F2C641;
+ 
+}
+
+
+@media (max-width: 1024px){
+  
+    .foto-header{
+        width: 15%;
+    }
+
+    .profissao{
+      padding: 2%;
+    }
+
+    .imagem-conteudo{
+        background-position: right top;
+    }
+
+    .divisao{
+        width: 50%;
+    }
+}
