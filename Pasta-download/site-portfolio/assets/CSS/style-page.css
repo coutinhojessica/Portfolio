@@ -10,58 +10,34 @@
 }
 
 
-                        /*CABEÇALHO*/
+                            /*CABEÇALHO*/
 
-.inline-block div{
-    display: inline-block;
-}               
-
-.conteiner-cabecalho{
+.nav-cabecalho{
     background-color: #D3B964;
-    height: 5em;
+  
+}
+
+.navbar{
+    color: #736758;
 }
 
 header{
-    padding: 1em;
-    margin-left: 1em;
-}
-
-.cabecalho{
-    color: #736758;
-    font-weight: bold;
-    font-family: 'square peg', cursive;
-
-}
-.titulo-page{
-    font-size: 28px;
-}
-
-                                   /*MENU*/
-
-.conteiner-menu{
- float: right;
-}
-
-.menu-page{
-    list-style: none;
- 
-}
-.menu-page > li{
-    display: inline;
-    padding: 0.5em;
-}
-
-.menu-page > li > a{
-    text-decoration: none;
-    color: #736758;
     font-family: 'Anek Odia', sans-serif;
 }
 
-.menu-page > li > a:hover{
-    background-image: url(../Imagens/favicon_io2/favicon-16x16.png);
-    background-repeat: no-repeat;
-    padding-left: 0.9em;
-    text-shadow: 2px 2px 4px #D9A13B;
+.logo{
+    color: #736758;
+    font-family: 'square peg', cursive;
+    font-size: 26px;
+}
+
+.menu > li > a:hover{
+    background-color: #998956;
+}
+
+.menu > li a:active{
+    background-color: #998956;
+
 }
 
                                 /*PÁGINA SOBRE MIM*/
